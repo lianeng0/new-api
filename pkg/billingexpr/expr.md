@@ -22,7 +22,7 @@ The expression is the billing contract between the administrator and the system.
 
 ## Expression Language
 
-Powered by [expr-lang/expr](https://github.com/expr-lang/expr). Expressions are compiled, cached, and evaluated against a runtime environment.
+Powered by expr-lang/expr. Expressions are compiled, cached, and evaluated against a runtime environment.
 
 ### Token Variables
 

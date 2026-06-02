@@ -346,7 +346,7 @@ const AWS_BEDROCK_ANTHROPIC_COMPAT_TEMPLATE = {
       description: 'Normalize anthropic-beta header tokens for Bedrock compatibility.',
       mode: 'set_header',
       path: 'anthropic-beta',
-      // https://github.com/BerriAI/litellm/blob/main/litellm/anthropic_beta_headers_config.json
+      // Anthropic beta header compatibility names.
       value: {
         'advanced-tool-use-2025-11-20': 'tool-search-tool-2025-10-19',
         bash_20241022: null,

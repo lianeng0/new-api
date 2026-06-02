@@ -9,7 +9,7 @@ import (
 	"github.com/gin-contrib/static"
 )
 
-// Credit: https://github.com/gin-contrib/static/issues/19
+// Wraps an embedded file system for gin-contrib/static.
 
 type embedFileSystem struct {
 	http.FileSystem

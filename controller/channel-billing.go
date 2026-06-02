@@ -21,7 +21,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// https://github.com/songquanpeng/one-api/issues/79
+// Keep compatibility with the historical subscription usage response.
 
 type OpenAISubscriptionResponse struct {
 	Object             string  `json:"object"`
